@@ -114,3 +114,54 @@ div.types-wrapper {
     padding-top: 10px;
     text-align: left;
 }
+.container-modern-art {
+    display: grid;
+    background: url("image.jpg") repeat center;
+}
+.container.ng-scope {
+    display: grid;
+}
+.zone.panel.panel-success.ng-scope {
+    background: white;
+}
+.btn.btn-primary {
+    background: #5393c1;
+    border-color: #5393c1;
+    box-shadow: 0 2px #3f7194;
+    color: #fff;
+    font-weight: inherit;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
+.btn {
+    text-shadow: none;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.428571429;
+    user-select: none;
+}
+.validate {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 15px;
+}
+.btn.btn-success {
+    background: #afc928;
+    border-color: #afc928;
+    box-shadow: 0 2px #899e1e;
+    color: #fff;
+    font-weight: inherit;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
