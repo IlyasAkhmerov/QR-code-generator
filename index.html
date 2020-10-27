@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>QR-code generator</title>
+    </head>
+    <body class="general">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <h1>QR Code generator</h1>
+                    <p class="lead">
+                        <span class="asset">
+                            "Free Instant download"
+                        </span>
+                        <span class="asset">
+                            "Easy customization"
+                        </span>
+                        <span class="asset">
+                            "Lifetime validity"
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <div id="static-wrapper" class="generator-wrapper">
+            <div class="container-modern-art">
+                <section class="detail">
+                    <div class="container ng-scope" id="qrcode-generator">
+                        <div class="row" id="row-qr">
+                            <div class="col-sm-4 col-lg-3 text-center">
+                                <div class="zone panel panel-success ng-scope">
+                                    <div id="types-heading" class="panel-heading">
+                                        <h2>
+                                            QR Code type
+                                        </h2>
+                                    </div>
+                                    <div class="types-wrapper">
+                                        <form role="form" class="ng-pristine ng-valid">
+                                            <div class="vcard-page">
+                                                <div class="form-group">
+                                                    <label for="vcard-firstname">Firstname</label>
+                                                    <input type="text" class="form-control input-sm ng-pristine ng-valid" id="vcard-firstname">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="vcard-name">Lastname</label>
+                                                    <input type="text" class="form-control input-sm ng-pristine ng-valid" id="vcard-name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="vcard-email-internet">Email</label>
+                                                    <input type="text" class="form-control input-sm ng-pristine ng-valid" id="vcard-email-internet">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="vcard-tel-cell">Cellphone</label>
+                                                    <input type="text" class="form-control input-sm ng-pristine ng-valid" id="vcard-tel-cell">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-lg-9">
+                                <div class="zone panel panel-success ng-scope">
+                                    <div class="panel-heading">
+                                        <h2>Your QR Code</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 text-center">
+                                            <div id="qrcode-wrapper">
+                                                <img id="imgQrCode" class="img-responsive" src="https://animatika.ru/netcat_files/Image/content/glossary/qr-code.gif" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <div id="test-download-qr">
+                                                <div class="spacer_50 hidden-xs hidden-sm"></div>
+                                                <div class="spacer_50 hidden-xs hidden-sm"></div>
+                                                <p class="lead">
+                                                    <span class="text-primary">WARNING</span>
+                                                    <br>
+                                                    Customized QR Codes might be unscannable.
+                                                    <br>
+                                                    <small>Be sure to verify your QR Code can be scanned in real size before using it!</small>
+                                                </p>
+                                                <button id="qrcode-download-tomodal" class="btn btn-success">Download the QR Code</button>
+                                                <div class="spacer_50"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
